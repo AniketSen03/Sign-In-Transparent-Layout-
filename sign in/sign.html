@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        background-image: linear-gradient(75deg, #6c0404, #013042);
+        height: 657px;
+        width: 100%;
+        /* filter: invert(1); */
+        
+    }
+
+    .block {
+        height: 30px;
+        width: 30%;
+        height: 496px;
+        width: 35%;
+        border: 2px solid white;
+        border-radius: 29px;
+        background-color: transparent;
+        margin: auto;
+        position: relative;
+        top: 70px;
+        background-color: transparent;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 7px 9px 49px black;
+    }
+
+    .login {
+        text-align: center;
+        margin-top: 36px;
+        font-size: 50px;
+        color: white;
+        text-transform: capitalize;
+        text-shadow: 5px 7px 7px black;
+    }
+
+    .epwd {
+        background-color: transparent;
+        margin: 50px;
+        border-bottom: 1px solid;
+        margin-top: 18px;
+    }
+
+    .placeholder {
+        background-color: transparent;
+        text-transform: capitalize;
+        width: 273px;
+        border: transparent;
+        font-size: 16px;
+        color: white;
+    }
+
+    .password {
+        border-bottom: 1px solid;
+        background-color: transparent;
+        margin: 50px;
+    }
+
+    .insidepwd {
+        background-color: transparent;
+        text-transform: capitalize;
+        width: 273px;
+        border: transparent;
+        font-size: 16px;
+        color: white;
+    }
+
+    .checkbox {
+        font-size: 20px;
+        color: white;
+        font-family: initial;
+        text-transform: capitalize;
+    }
+
+    .btn {
+        padding: 19px 133px;
+        margin: 9px;
+        text-transform: capitalize;
+        border-radius: 67px;
+        border: transparent;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .lastline {
+        color: white;
+        margin: 16px;
+        font-size: 15px;
+        font-family: math;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="block">
+            <div class="login">login
+                <div class="epwd">
+                    <input type="email" placeholder="email address,username or mobile number" class="placeholder">
+                </div>
+                <div class="password"><input type="password" placeholder="password" class="insidepwd">
+                </div>
+            </div>
+            <div class="checkbox"><input type="checkbox"> remember me forget password</div>
+            <div class="loginbtn" onclick="openWindow()"><input type="button" value="login in" class="btn"></div>
+            <div class="lastline">don't have a account <b>Register</b> </div>
+        </div>
+    </div>
+</body>
+<script>
+    function openWindow() {
+        window.open(
+            'file:///C:/Users/lucky/Desktop/vs%20code%20project/flipkart.com.html','_parent'
+        )
+        
+    }
+</script>
+</html>
